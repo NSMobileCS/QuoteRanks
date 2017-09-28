@@ -1,0 +1,18 @@
+<table >
+  <tr>
+  <h4>
+  {{ quote.text }}    
+  </h4>
+  <h6>
+    {{ quote.author }}
+  </h6>
+  <h6>
+    votes: {{ quote.score }}
+  </h6>
+  <p>
+    <form (submit)='voteUP()'>
+      <input type="submit" value='upvote!'>
+    </form>
+  </p>
+  </tr>
+</table>
