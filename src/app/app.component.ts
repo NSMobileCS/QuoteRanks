@@ -14,4 +14,5 @@ export class AppComponent {
 
   getNewQuote = (quote) => this.quoteList.push(quote);
 
+
 }

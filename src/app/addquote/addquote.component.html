@@ -1,14 +1,14 @@
 <form (submit)="sendQuote()">
   <p>
     Your Quote
-    <input [(ngModel)]='quoteObject.text' type="text">
+    <input [(ngModel)]='quoteObject.text' type="text" name='quotetext'>
   </p>
   <p>
     author
-    <input [(ngModel)]='quoteObject.author'>
+    <input [(ngModel)]='quoteObject.author' name='quoteauthor'>
   </p>
   <p>
     upvote 
-    <input type="submit" value='add quote'>
+    <input type="submit" value='add quote' name='submitbutton'>
   </p>
 </form>

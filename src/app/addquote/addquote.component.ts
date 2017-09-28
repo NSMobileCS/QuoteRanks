@@ -9,6 +9,12 @@ export class AddquoteComponent implements OnInit {
 
 @Output() quoteButler = new EventEmitter();
 
+  quoteObject = {
+    text: '',
+    author: '',
+    score: 0
+  }
+
   constructor() { }
 
   ngOnInit() {
